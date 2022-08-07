@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+:root{
+    --main-bg-color: #E5E5E5;
+    --button-encript-bg-color: #0A3871;
+    --button-dencript-bg-color:#D8DFE8;
+}
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+button{
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+}
