@@ -8,9 +8,81 @@
     margin: 0 auto;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    background: var(--main-bg-color);
+    overflow: hidden;
 }
 button{
     border-radius: 24px;
     width: 328px;
     height: 67px;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.5;
+    transition-delay: 1000;
+}
+nav{
+    width: 100%;
+    height: 55px;
+}
+nav img{
+    float: left;
+    margin-top: 5px;
+}
+main{
+    height: 100vh;
+}
+textarea{
+    resize: none;
+    background: rgb(50, 10, 230);
+    border-radius: 50px;
+    padding-top: 20px;
+    padding-left: 15px;
+    border-radius: 50px;
+    font-size: 20pt;
+    border-color: transparent;
+    color: white;
+}
+textarea::placeholder{
+    color: #CCCCFF;
+}
+span{
+    color: var(#404043);    
+}
+#text{
+    float: left;
+    width: 70%;
+}
+#message{
+    float: left;
+    width: 30%;
+    padding-right: 20px;
+}
+#text-content{
+    transform: translate(30%);
+    -webkit-transform: translate(30%);
+    -moz-transform: translate(30%);
+    -ms-transform: translate(30%);
+    -o-transform: translate(30%);
+    margin-bottom: 80px;
+}
+#text-message{
+    height: 80vh;
+    background-color: #b0b0c5;
+    border-radius: 50px;
+}
+.buttons{
+    transform: translate(20%);
+    -webkit-transform: translate(20%);
+    -moz-transform: translate(20%);
+    -ms-transform: translate(20%);
+    -o-transform: translate(20%);
+}
+.btn-encript{
+    background-color: var(--button-encript-bg-color);
+    color: #FFFFFF;
+}
+.btn-unencript{
+    background-color: var(--button-dencript-bg-color);
+    color: #1a1c1a;
 }
