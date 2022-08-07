@@ -49,6 +49,16 @@ textarea::placeholder{
 span{
     color: var(#404043);    
 }
+h3{
+    background-color: transparent !important
+}
+#text-message img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+    margin-left: 25%;
+    margin-top: 20%;
+}
 #text{
     float: left;
     width: 70%;
@@ -85,4 +95,8 @@ span{
 .btn-unencript{
     background-color: var(--button-dencript-bg-color);
     color: #1a1c1a;
+}
+.message{
+    text-align: center;
+    margin-top: 10%;
 }
