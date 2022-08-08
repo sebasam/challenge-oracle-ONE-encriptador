@@ -41,6 +41,7 @@ function encriptText(){
             }
         }
         message = ''
+        uncryptMessage = ''
         setTimeout(function(){
             showElement.classList.remove('show')
             showElement.classList.add('hide-element')
@@ -65,7 +66,7 @@ function copyEncriptText(){
     },3000)
 }
 
-function unencriptText(){
+function unencriptText(){    
     if(regExpText.test(textArea.value)){
         message2 = textArea.value
         textContainer.lastElementChild.innerHTML = ''
@@ -146,7 +147,8 @@ function unencriptText(){
                 uncryptMessage = uncryptMessage.concat(message2[i])
             }
         }
-        message2 = '' 
+        message2 = ''
+        cryptMessage = ''
         setTimeout(function(){
             showElement.classList.remove('show')
             showElement.classList.add('hide-element')
