@@ -56,8 +56,6 @@ h3{
     height: 200px;
     width: 200px;
     border-radius: 50px;
-    margin-left: 25%;
-    margin-top: 20%;
 }
 #text{
     float: left;
@@ -80,6 +78,13 @@ h3{
     height: 80vh;
     background-color: #b0b0c5;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#crypt{
+    padding: 20% 10%;
 }
 .buttons{
     transform: translate(20%);
