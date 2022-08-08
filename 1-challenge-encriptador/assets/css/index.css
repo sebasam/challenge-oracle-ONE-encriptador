@@ -32,7 +32,13 @@ nav img{
 main{
     height: 100vh;
 }
-textarea{
+span{
+    color: var(#404043);    
+}
+h3{
+    background-color: transparent !important
+}
+#main-text-area{
     resize: none;
     background: rgb(50, 10, 230);
     border-radius: 50px;
@@ -43,14 +49,8 @@ textarea{
     border-color: transparent;
     color: white;
 }
-textarea::placeholder{
+#main-text-area::placeholder{
     color: #CCCCFF;
-}
-span{
-    color: var(#404043);    
-}
-h3{
-    background-color: transparent !important
 }
 #text-message img{
     height: 200px;
@@ -83,8 +83,18 @@ h3{
     align-items: center;
     flex-direction: column;
 }
-#crypt{
-    padding: 20% 10%;
+#crypt-message{
+    background-color: #b0b0c5;
+    border-color: transparent;
+    color: white;
+}
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #b0b0c5;
 }
 .buttons{
     transform: translate(20%);
@@ -104,4 +114,15 @@ h3{
 .message{
     text-align: center;
     margin-top: 10%;
+}
+.hide-element{
+    display: none;
+}
+.show-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #b0b0c5;
 }

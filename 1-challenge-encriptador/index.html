@@ -16,7 +16,7 @@
     <main>
         <section id="text">
             <div id="text-content">
-                <textarea placeholder="Ingrese el texto aquí" name="" id="" cols="30" rows="10"></textarea>
+                <textarea id="main-text-area" placeholder="Ingrese el texto aquí" cols="30" rows="10"></textarea>
                 <div></div>
             </div>
             <div id="encript">
@@ -31,11 +31,18 @@
         </section>
         <section id="message">            
             <div id="text-message">
-                <img src="./assets/img/kanao.jpg" alt="kanao">
-                <div class="message">
-                    <h3>Ningún mensaje fue seleccionado</h3>
+                <div class="show">
+                    <img src="./assets/img/kanao.jpg" alt="kanao">
+                    <div class="message">
+                        <h3>Ningún mensaje fue seleccionado</h3>
+                    </div>
                 </div>
-            </div>
+                <div id="hide" class="hide-element">
+                    <textarea id="crypt-message" cols="25" rows="10"></textarea>
+                    <button id="btn-copy" style="width: 200px;margin-top:50px;">Copiar Texto</button>
+                    <div></div>
+                </div>
+            </div>                     
         </section>
     </main>
     <script src="./assets/js/index.js"></script>
